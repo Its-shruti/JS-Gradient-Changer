@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradient changer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- ========== Start Header Section ========== -->
+    
+    <header class="bg-white">
+        <div class="container">
+            <nav class="d-flex align-justify">
+                <div class="logo"><img src="shruti_logo.png" alt=" gradient logo"></div>
+                <div><h1 class="col-black">Gradient Changer</h1></div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ========== End Header Section ========== -->
+
+
+
+    <!-- ========== Start Main Section ========== -->
+    
+    <main>
+        <div class="container-small">
+            <div class="main-box">
+
+                <ul id="dataBox" class="d-grid">
+                    <!-- <li>
+                        <div class="btn-div bg-green">
+                            <p class="paragraph text-16 col-white">#ffffff</p>
+                            <i class="fa-solid fa-xmark cross-circle text-18 bg-white col-black"></i>
+                        </div>
+
+                    </li> -->
+                </ul>
+
+
+                <div class="plus_check_icon">
+                    <i class="plus fa-solid fa-plus col-black bg-white"></i>
+                    <i class="check fa-solid fa-check col-black bg-white"></i>
+                </div>
+
+
+                <div class="input-div">
+                    <input type="range" min="0" max="360" value="0" id="inputRange">
+                    <span id="degBox" class="text-16 col-white">0deg</span>
+                </div>
+
+                <div class="text-18 col-white">Copy below to copy code:</div>
+                <div class="textBox col-white text-18">
+                    background-image: linear-gradient( 0deg, #ffffff , #ffffff );
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <!-- ========== End Main Section ========== -->
+    
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
